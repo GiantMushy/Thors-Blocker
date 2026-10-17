@@ -1,0 +1,34 @@
+/* --- Shorts --- */
+html.tb-on ytd-guide-entry-renderer:has(a[title="Shorts"]),
+html.tb-on ytd-mini-guide-entry-renderer[aria-label="Shorts"],
+html.tb-on ytd-reel-shelf-renderer,
+html.tb-on ytd-rich-shelf-renderer[is-shorts],
+html.tb-on ytd-rich-section-renderer:has(ytd-rich-shelf-renderer[is-shorts]),
+html.tb-on grid-shelf-view-model:has(ytm-shorts-lockup-view-model, ytm-shorts-lockup-view-model-v2),
+html.tb-on ytd-item-section-renderer:has(> #contents > grid-shelf-view-model ytm-shorts-lockup-view-model-v2),
+html.tb-on yt-tab-shape[tab-title="Shorts"],
+
+/* --- Recommendations next to / under the video --- */
+html.tb-on ytd-watch-flexy #related,
+html.tb-on ytd-watch-next-secondary-results-renderer,
+
+/* --- Suggestions inside the player (end screen, end cards, pause/fullscreen grids) --- */
+html.tb-on .html5-endscreen,
+html.tb-on .ytp-endscreen-content,
+html.tb-on .ytp-ce-element,
+html.tb-on .ytp-autonav-endscreen,
+html.tb-on .ytp-autonav-endscreen-countdown-overlay,
+html.tb-on .ytp-pause-overlay,
+html.tb-on .ytp-suggestion-set,
+html.tb-on .ytp-fullscreen-grid,
+
+/* --- Ads / promoted --- */
+html.tb-on ytd-ad-slot-renderer,
+html.tb-on ytd-rich-item-renderer:has(ytd-ad-slot-renderer),
+html.tb-on ytd-in-feed-ad-layout-renderer,
+html.tb-on ytd-promoted-sparkles-web-renderer,
+html.tb-on ytd-banner-promo-renderer,
+html.tb-on #player-ads,
+html.tb-on #masthead-ad {
+  display: none !important;
+}

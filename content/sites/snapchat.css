@@ -1,0 +1,5 @@
+/* Links to Spotlight and Discover. */
+html.tb-on a[href*="/spotlight"],
+html.tb-on a[href*="/discover"] {
+  display: none !important;
+}

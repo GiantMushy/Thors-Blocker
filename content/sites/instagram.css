@@ -1,0 +1,5 @@
+/* Reels and Explore tabs in the left nav. */
+html.tb-on a[href="/reels/"],
+html.tb-on a[href="/explore/"] {
+  display: none !important;
+}

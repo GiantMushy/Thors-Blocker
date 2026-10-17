@@ -1,0 +1,4 @@
+/* Elements marked by the site scripts. Only hidden while the extension is switched on. */
+html.tb-on [data-tb-hidden] {
+  display: none !important;
+}

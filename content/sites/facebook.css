@@ -1,0 +1,12 @@
+/* Reels and Gaming tabs in the top bar and the left sidebar. Links inside the feed are untouched,
+   so a friend's reel still opens. */
+html.tb-on [role="banner"] li:has(a[href*="/reel"]),
+html.tb-on [role="banner"] li:has(a[href*="/gaming"]),
+html.tb-on [role="banner"] a[href*="/reel"],
+html.tb-on [role="banner"] a[href*="/gaming"],
+html.tb-on [role="navigation"] li:has(a[href*="/reel"]),
+html.tb-on [role="navigation"] li:has(a[href*="/gaming"]),
+html.tb-on [role="navigation"] a[href*="/reel"],
+html.tb-on [role="navigation"] a[href*="/gaming"] {
+  display: none !important;
+}
