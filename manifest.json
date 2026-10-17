@@ -49,7 +49,7 @@
     {
       "matches": ["https://open.spotify.com/*"],
       "js": ["content/common.js", "content/sites/spotify.js"],
-      "css": ["content/common.css"],
+      "css": ["content/common.css", "content/sites/spotify.css"],
       "run_at": "document_start"
     }
   ]

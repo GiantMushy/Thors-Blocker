@@ -1,0 +1,4 @@
+/* Shelf grids with hidden cards get a smaller row count from spotify.js, so no empty rows are left. */
+html.tb-on [data-testid="grid-container"][data-tb-rows] {
+  grid-template-rows: repeat(var(--tb-row-count), minmax(0, 1fr)) !important;
+}
